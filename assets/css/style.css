@@ -14,14 +14,14 @@
     --accent-color-pink: #E5245E;
     --accent-color-purple: #591B98;
     /*font sizes*/
-    --font-h1: "bold 36px";
-    --font-h2: "bold 32px";
-    --font-h3: "bold 28px";
-    --font-headline: "bold 16px";
-    --font-paragraph: "regular 16px";
-    --font-subtitle: "italic 16px";
-    /* font-style font-weight font-size font-family */
-    /*font: italic bold 1.2em "Fira Sans", sans-serif;*/
+    --font-size-h1: 36px;
+    --font-size-h2: 32px;
+    --font-size-h3: 28px;
+    --font-size-text: 16px;
+    /*font weights*/
+    --font-weight-bold: bold;
+    /*font style*/
+    --font-style-italic: italic;
 }
 
 * {
@@ -32,4 +32,113 @@
     font-weight: 400;
     font-style: normal;
     line-height: 1.5;
+    background-color: var(--background-color);
 }
+
+body {
+    padding: 88px 80px;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 28px;
+}
+
+h1, h2, h3 {
+    color: var(--text-color-primary);
+    font-weight: var(--font-weight-bold);
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+    margin-top: 8px;
+}
+
+p {
+    color: var(--text-color-secondary);
+}
+
+span, ul li {
+    font-weight: var(--font-weight-bold);
+}
+
+ul {
+    margin-left: 25px;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.box-primary > p {
+    font-style: var(--font-style-italic);
+    margin-top: 16px;
+}
+
+.box-primary {
+    padding: 40px 0px 40px 0px;
+    margin: 1px solid var(--border-primary);
+}
+
+.box-secondary {
+    margin: 64px 0px;
+}
+
+.border {
+    border-bottom: 1px solid var(--border-primary);
+}
+
+.headline {
+    font-size: var(--font-size-text);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-color-headline);
+    text-transform: uppercase;
+}
+
+.itens {
+    padding-bottom: 40px;
+}
+
+.itens img {
+    object-fit: cover;
+    height: 350px;
+}
+
+.center {
+    text-align: center;
+}
+
+.description {
+    padding-top: 40px;
+}
+
+.text-blue {
+    color: var(--accent-color-blue);
+}
+
+.text-orange {
+    color: var(--accent-color-orange);
+}
+
+.text-pink {
+    color: var(--accent-color-pink);
+}
+
+.text-purple {
+    color: var(--accent-color-purple);
+}
+
