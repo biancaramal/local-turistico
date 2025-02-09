@@ -9,7 +9,7 @@ Este repositório contém a solução para o desafio prático "Local Turístico"
 
 ## Funcionalidades
 
-- Apresentação de locais turísticos
+- Apresentação de locais turísticos em Busan, Coreia do Sul
 - Layout estilizado com CSS
 
 ## Como Rodar o Projeto
@@ -20,10 +20,6 @@ Este repositório contém a solução para o desafio prático "Local Turístico"
    cd local-turistico
    ```
 2. Abra o arquivo `index.html` em seu navegador.
-
-## Contribuição
-
-Sinta-se à vontade para abrir issues e pull requests com melhorias e correções.
 
 ## Licença
 
